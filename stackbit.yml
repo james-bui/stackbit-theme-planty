@@ -1,5 +1,7 @@
 stackbitVersion: ~0.2.34
 uploadDir: images
+staticDir: static
+publishDir: dist
 metadata:
   title: Snipcart
   description: An e-commerce theme powered by Snipcart
