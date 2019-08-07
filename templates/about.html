@@ -15,9 +15,10 @@
       </div>	    
     </section>
   {% endfor %}
-  <div>
-  <p> <iframe src="https://services.cognitoforms.com/f/jgCD5cps5EuN7GXA2TLXQA?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1054" width="100%"></iframe><script src="https://services.cognitoforms.com/scripts/embed.js"></script> </p>
-  </div>
+  <div class="cognito">
+<script src="https://services.cognitoforms.com/s/jgCD5cps5EuN7GXA2TLXQA"></script>
+<script>Cognito.load("forms", { id: "2" });</script>
+</div>
     
   {% include "promo_section.html" %} 
 </main>
